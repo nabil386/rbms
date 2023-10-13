@@ -3,3 +3,5 @@ spring:
     username: root
     password: password
     url: r2dbc:mysql://localhost:8082/testdb_spring
+server:
+  port: 8082

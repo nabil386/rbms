@@ -2,6 +2,6 @@ spring:
   r2dbc:
     username: root
     password: password
-    url: r2dbc:mysql://localhost:8082/testdb_spring
+    url: r2dbc:pool:mysql://localhost:3306/ruggedbooking
 server:
   port: 8082
